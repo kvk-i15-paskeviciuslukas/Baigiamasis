@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100%;
+    margin: 0;
+    background-color: #393E46;
+    font-family: 'Comfortaa';
+}
+div.mainas{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 12px 10px;
+    background-color: #EEEEEE;
+    min-height: 300px;
+    min-width: 400px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #222831;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 15px;
+}
+div.inputai{
+    padding:0 25px;
+}
+div.inputas-bendras{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    text-align: left;
+    justify-content: center;
+}
+button{
+    color: white;
+    background-color: #00ADB5;
+    width: 180px;
+    height: 40px;
+    border:2px solid #01969e;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: #00c8d3;
+}
+div input{
+    min-width: 320px ;
+    min-height: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+label{
+    padding: 5px 0;
+}
+div.redirectai{
+    font-size: 12px;
+    padding-top: 14px;
+}
+div a{
+    text-decoration: none;
+    color: #393E46;
+    font-weight: bold;
+}
+span{
+    color: red;
+    font-size: 10px;
+}
+.alert-success{
+    background-color: rgb(163, 214, 163);
+    min-width: 300px ;
+    min-height: 20px;
+    padding: 10px 5px;
+    color: rgb(1, 102, 1);
+    text-align: center;
+    border: 1px solid rgb(65, 151, 65);
+    font-size: 16px;
+    margin: 0;
+}
+.alert-fail{
+    background-color: rgb(216, 135, 135);
+    min-width: 300px ;
+    min-height: 20px;
+    padding: 10px 5px;
+    color: rgb(136, 39, 39);
+    text-align: center;
+    border: 1px solid rgb(172, 105, 105);
+    font-size: 16px;
+    margin: 0;
+}
+div.redirectai-pradinis{
+    font-size: 10px;
+    text-align:left;
+}
