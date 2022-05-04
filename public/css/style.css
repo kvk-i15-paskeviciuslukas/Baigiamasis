@@ -52,7 +52,7 @@ div.header label{
     background-color:#EEEEEE;
     height: auto;
 }
-@media (max-width: 45em){
+@media (max-width: 55em){
     .pradzios-straipsnis{
         flex-direction: column;
     }
@@ -64,27 +64,49 @@ div.header label{
 .straipsnio-pav{
     margin: 0;
     color: #00ADB5;
-    font-size: 30px;
-    padding: 20px 0;
+    font-size: 35px;
+    padding: 30px 0;
 }
 .straipsnio-tekstas{
     color: #393E46;
     line-height: 30px;
     font-size: 18px;
 }
-ul{
+.straipsnio-foto{
+    width: 35em;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+}
+@media (max-width:70em){
+    .straipsnio-foto{
+        width: 30em;
+    }
+}
+@media (max-width:62em){
+    .straipsnio-foto{
+        width: 27em;
+    }
+}
+@media (max-width:55em){
+    .straipsnio-foto{
+        width: 24em;
+    }
+}
+ul.header{
 float: right;
 margin: 0 5px;
 }
-a:hover{
+a.header:hover{
     color: #00ADB5;
+    transition: 0.5s;
 }
-a{
+a.header{
     color: white;
     font-family: 'Comfortaa', cursive;
     font-size: 18px;
 }
-li{
+li.header{
     display: inline-block;
     line-height: 60px;
     padding:0 20px;
@@ -109,6 +131,158 @@ div.footer-tekstas{
     font-size: 20px;
     color: white;
     font-family: 'Comfortaa', cursive;
+    margin: 0;   
+}
+.dashflex{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar{
+    position: fixed;
+    display: inline-block;
+    background-color:#393E46;
+    width: 300px;
+    height: 100%;
+}
+.sidebar_ul{
+    padding: 0;
     margin: 0;
-    
+}
+.sidebar_li{
+    padding: 0px 0px;
+}
+.sidebar_a{
+    display: block;
+    padding: 15px 10px;
+    color:#EEEEEE;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.sidebar_li:hover{
+    background-color:#00ADB5;
+    transition: 0.5s;
+}
+.sidebar_footer{
+    position: fixed;
+    color: #EEEEEE;
+    font-size: 12px;
+    bottom: 0;
+    padding: 15px 10px;
+    width: 285px;
+    text-align: center;
+}
+.dashinfo{
+    margin: 0 0 0 300px;
+}
+.dasho-startview{
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.dasho-strpav{
+    color: #00ADB5;
+    font-size: 25px;
+}
+.dasho-strtext{
+    line-height: 24px;
+    color:#393E46;
+}
+.dasho-forminp{
+    width: 240px;
+    height: 24px;
+    font-size: 18px;
+}
+.dasho-formtextarea{
+    font-size: 18px;
+}
+.dasho-formsub{
+    width: 100px;
+    height: 30px;
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: 'Comfortaa', cursive;
+    border: none;
+    font-size: 14px;
+}
+.dasho-formsub:hover{
+    cursor: pointer;
+    background-color: #00ADB5;
+    transition: 0.4s;
+}
+.dasho-mygt{
+    width: 250px;
+    height: 30px;
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: 'Comfortaa', cursive;
+    border: none;
+    font-size: 14px;
+}
+.dasho-mygt:hover{
+    cursor: pointer;
+    background-color: #00ADB5;
+    transition: 0.4s;
+}
+.dasho-table{
+    border: 3px solid #00ADB5;
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+}
+.dasho-table-td{
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #00ADB5;
+}
+.dasho-table-tr{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border: 1px solid #00ADB5;
+}
+.dasho-vaizduotmygt{
+    color:#EEEEEE;
+    background-color: #00ADB5;
+    border:#00ADB5 2px solid;
+}
+.dasho-vaizduotmygt:hover{
+    color:#00ADB5;
+    background-color: #EEEEEE;
+    transition: 0.4s;
+}
+.dasho-istrintmygt{
+    color:#EEEEEE;
+    background-color: darkred;
+    border:darkred 2px solid;
+}
+.dasho-istrintmygt:hover{
+    color:darkred;
+    background-color: #EEEEEE;
+    transition: 0.4s;
+}
+.dasho-vaizduotmygt{
+    font-size: 16px;
+    width: 140px;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.alertSuccess{
+    background-color: rgb(163, 214, 163);
+    min-width: 300px ;
+    min-height: 20px;
+    padding: 10px 5px;
+    color: rgb(1, 102, 1);
+    text-align: center;
+    border: 1px solid rgb(65, 151, 65);
+    font-size: 16px;
+    margin: 0;
+}
+.imgDisplayID{
+width: auto;
+height: 864px;
+}
+.videoDisplayID{
+    width: auto;
+    height: 721px;
 }

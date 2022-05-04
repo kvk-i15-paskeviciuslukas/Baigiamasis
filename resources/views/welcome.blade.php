@@ -19,41 +19,31 @@
     <body>
         <div class="header">
             <label>Splash</label>
-                <ul>
-                    <li><a href="login">Prisijungti</a></li>
-                    <li><a href="register">Registruotis</a></li>
+                <ul class="header">
+                    <li class="header"><a class="header" href="login">Prisijungti</a></li>
+                    <li class="header"><a class="header" href="register">Registruotis</a></li>
                 </ul>
         </div>
         <div class="pradzios-straipsnis">
             <div class="straipsnis">
-                <h3 class="straipsnio-pav">Lorem Ipsum</h3>
+                <h3 class="straipsnio-pav">Sveiki atvykę į Splash!</h3>
                  <div class="straipsnio-tekstas">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sollicitudin mauris, a placerat tellus.
-                    Donec efficitur, neque malesuada congue vestibulum, turpis quam suscipit tellus, ac rutrum purus magna 
-                    sit amet libero. Proin ipsum felis, lobortis quis sem eget, malesuada fermentum risus. Integer non 
-                    feugiat lacus, nec viverra ex. Nulla sit amet sapien facilisis, fringilla nibh sed, vestibulum eros.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod tortor scelerisque, tempus
-                    dolor sit amet, pretium nibh. Ut eros sem, posuere nec volutpat sit amet, efficitur ac dolor. Nulla
-                    laoreet eros quis hendrerit sagittis. Cras id dignissim velit, a porttitor ex.
+                    Splash užsiima turinio atvaizdavimu nutolusiame ekrane. Tam įgyvendinti naudojame Raspberry Pi 4 mikro
+                    kompiuterius, kurių dėka, viskas vyksta sklandžiai ir patogiai. <b>Splash Jums siūlo saugų, patogų ir patrauklią kainą
+                     turintį sprendimą.</b> Mes išsprendžiame Jums iškilusias problemas kol Jūs galite koncentruotis ties savo pasirinkto
+                     turinio atvaizdavimu.<br> <b>Mums svarbiausia - Jūsų norų įgyvendiminas!</b><br>Dėl platesnių detalių galite kreiptis
+                     į mūsų elektroninį paštą: info@splash.lt .<br> Visada lauksime Jūsų!
                 </div>
             </div>
             <div class="straipsnis">
-                <h3 class="straipsnio-pav">Lorem Ipsum</h3>
                 <div class="straipsnio-tekstas">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sollicitudin mauris, a placerat tellus.
-                    Donec efficitur, neque malesuada congue vestibulum, turpis quam suscipit tellus, ac rutrum purus magna 
-                    sit amet libero. Proin ipsum felis, lobortis quis sem eget, malesuada fermentum risus. Integer non 
-                    feugiat lacus, nec viverra ex. Nulla sit amet sapien facilisis, fringilla nibh sed, vestibulum eros.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod tortor scelerisque, tempus
-                    dolor sit amet, pretium nibh. Ut eros sem, posuere nec volutpat sit amet, efficitur ac dolor. Nulla
-                    laoreet eros quis hendrerit sagittis. Cras id dignissim velit, a porttitor ex.
+                    <img class="straipsnio-foto" src="{{ url('/img/welcomefoto.jpg') }}" alt="Welcomeft">
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="footer-tekstas">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id neque eget odio 
-                gravida semper eu ut quam.
+                Visos teisės saugomos © Splash 2022
             </div>
         </div>
     </body>

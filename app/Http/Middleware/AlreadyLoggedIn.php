@@ -18,7 +18,7 @@ class AlreadyLoggedIn
     {
         $path = $request->path();
         if(($path == "login" || $path == "register" || $path == "/") && (Session()->has('loginId'))){
-            return redirect('dashboard');
+            return redirect('dashboard/home');
         }
         // if(Session()->has('loginId') && (url('login')==$request->url('dashboard')) || (url('register')==$request->url('dashboard')) || 
         // (url('')==$request->url('dashboard'))){

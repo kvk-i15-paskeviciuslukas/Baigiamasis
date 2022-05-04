@@ -43,7 +43,7 @@ class AuthController extends Controller
         if($user){
             if(Hash::check($request->slaptazodis,$user->slaptazodis)){
                 $request->session()->put('loginId',$user->id);
-                return redirect('dashboard');
+                return redirect('/dashboard/home');
             }
             else{
                 return back()->with('fail','Slaptažodis neteisingas.');
