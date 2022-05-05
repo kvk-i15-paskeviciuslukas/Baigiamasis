@@ -32,7 +32,7 @@
                     kompiuterius, kurių dėka, viskas vyksta sklandžiai ir patogiai. <b>Splash Jums siūlo saugų, patogų ir patrauklią kainą
                      turintį sprendimą.</b> Mes išsprendžiame Jums iškilusias problemas kol Jūs galite koncentruotis ties savo pasirinkto
                      turinio atvaizdavimu.<br> <b>Mums svarbiausia - Jūsų norų įgyvendiminas!</b><br>Dėl platesnių detalių galite kreiptis
-                     į mūsų elektroninį paštą: info@splash.lt .<br> Visada lauksime Jūsų!
+                     į mūsų elektroninį paštą.<br> Visada lauksime Jūsų!
                 </div>
             </div>
             <div class="straipsnis">
@@ -43,7 +43,7 @@
         </div>
         <div class="footer">
             <div class="footer-tekstas">
-                Visos teisės saugomos © Splash 2022
+                Splash 2022
             </div>
         </div>
     </body>

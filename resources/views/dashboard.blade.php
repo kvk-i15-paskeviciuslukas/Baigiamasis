@@ -31,7 +31,7 @@
                 <li class="sidebar_li"><a class="sidebar_a" href="{{url('dashboard/video')}}">Vaizduoti įrašą</a></li>
                 <li class="sidebar_li"><a class="sidebar_a" href="{{url('dashboard/help')}}">Pagalba</a></li>
                 <li class="sidebar_li"><a class="sidebar_a" href="logout">Atsijungti</a></li>
-                <li class="sidebar_footer">© Splash 2022</li>
+                <li class="sidebar_footer">Splash 2022</li>
             </ul>
         </div>
         <div class="dashinfo">
